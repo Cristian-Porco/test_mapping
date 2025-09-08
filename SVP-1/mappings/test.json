@@ -1,0 +1,15 @@
+{
+    "name": "hello-stub",
+    "request": {
+      "method": "GET",
+      "url": "/hello"
+    },
+    "response": {
+      "status": 200,
+      "body": "Ciao persistente da WireMock!",
+      "headers": {
+        "Content-Type": "text/plain"
+      }
+    },
+    "persistent": true
+  }
